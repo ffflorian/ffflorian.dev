@@ -1,0 +1,129 @@
+@import 'spectre.css';
+
+$primary-color = #009d00;
+$primary-color-dark = #008700;
+
+body {
+  height: 100%;
+  background: url('../img/stardust.png');
+  background-color: #444349;
+
+  h2,
+  footer, footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer {
+    margin-top: 50px;
+    margin-bottom: 0 !important;
+  }
+
+  footer a:hover, footer a:active, .card .card-header h6 a:hover {
+    color: $primary-color;
+  }
+
+  #fingerprint {
+    font-size: 8pt;
+    line-height: 11pt;
+    margin-top: 5px;
+    display: none;
+    text-align: center;
+
+    .label {
+      white-space: normal;
+      text-align: left;
+    }
+  }
+
+  #gallery {
+    display: none;
+  }
+
+  .card .card-header h6 a {
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+
+  .card-image .img-responsive {
+     margin-left: auto;
+     margin-right: auto;
+  }
+
+  .section {
+    margin-bottom: 100px;
+  }
+
+  .card-body {
+    min-height: 70px;
+  }
+
+  .column {
+    padding-top: 30px;
+  }
+
+  .btn.btn-primary {
+    background: $primary-color !important;
+    border-color: $primary-color-dark !important;
+
+    &:hover, &:active {
+      background: $primary-color-dark !important;
+      border-color: #007400 !important;
+    }
+  }
+
+  .btn.btn-primary[disabled], .btn.btn-disabled:hover[disabled] {
+    background: #5db05d;
+    border-color: #4d874d;
+    color: #fff;
+  }
+
+  .lightbox {
+    -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+    -ms-animation: fadein 0.5s; /* Internet Explorer */
+    animation: fadein 0.5s;
+    display: none;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 12pt;
+
+    &, &:hover, &:focus, &:active {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 90%;
+      max-height: 80%;
+      margin-top: 2%;
+    }
+  }
+
+  .lightbox:target, #fingerprint:target {
+    outline: none;
+    display: block;
+  }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+}

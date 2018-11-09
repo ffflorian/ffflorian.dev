@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build folders and files
+build/
+dist/
+node_modules/
+tmp/
+.grunt/
+*.js.map
+
+# Misc
+.htaccess
