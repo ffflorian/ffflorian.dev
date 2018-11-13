@@ -1,24 +1,25 @@
-const isReady = cb => {
+function isReady(cb: () => void): void {
   if (document.readyState !== 'loading') {
     cb();
   } else {
     document.addEventListener('DOMContentLoaded', cb);
   }
-};
+}
 
-const getElementById = id => document.getElementById(id);
-const getFirstElementByTag = id => document.getElementsByTagName(id)[0];
+const getElementById = (id: string) => document.getElementById(id);
 
-const getOffset = element => {
+const getFirstElementByTag = (id: string) => document.getElementsByTagName(id)[0];
+
+function getOffset(element: HTMLElement) {
   const box = element.getBoundingClientRect();
 
   return {
     top: box.top + window.pageYOffset - document.documentElement.clientTop,
     left: box.left + window.pageXOffset - document.documentElement.clientLeft,
   };
-};
+}
 
-const animate = (element, speed, params) => {
+function animate(element: HTMLElement, speed: number, params: {[index: string]: string}): void {
   element.style.transition = `all ${speed}`;
   Object.keys(params).forEach(key => (element.style[key] = params[key]));
 };
@@ -34,5 +35,6 @@ isReady(() => {
 
     window.scroll({top: offset, left: 0, behavior: 'smooth'});
   });
-  getElementById('mail').href = 'mailto:hallo@ffflorian.de';
+
+  getElementById('mail').setAttribute('href', 'mailto:hallo@ffflorian.de');
 });

@@ -1,24 +1,24 @@
 {
   "author": "Florian Keller <github@floriankeller.de>",
   "devDependencies": {
-    "http-server": "0.11.1",
     "parcel-bundler": "1.10.3",
     "prettier": "1.15.2",
     "rimraf": "2.6.2",
     "spectre.css": "0.5.5",
-    "stylus": "0.54.5"
+    "stylus": "0.54.5",
+    "typescript": "3.1.6"
   },
   "license": "MIT",
   "main": "index.js",
   "name": "ffflorian.de",
   "private": true,
-  "repository": "https://github.com/ffflorian.github.io",
+  "repository": "https://github.com/ffflorian/ffflorian.github.io",
   "scripts": {
-    "clean": "rimraf dist",
     "build": "parcel build --no-cache -d dist src/index.html",
+    "clean": "rimraf dist .cache",
     "dist": "yarn clean && yarn build",
-    "prettier": "prettier --single-quote --write src/**/*.{js,html}",
-    "start": "yarn dist && http-server -c-1 dist/ -o"
+    "prettier": "prettier --single-quote --write src/**/*.{ts,html,css}",
+    "start": "parcel serve src/index.html --no-cache --open"
   },
   "version": "1.0.0"
 }
