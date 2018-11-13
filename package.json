@@ -16,12 +16,11 @@
   "private": true,
   "repository": "https://github.com/ffflorian/ffflorian.github.io",
   "scripts": {
-    "build": "parcel build --no-cache -d dist src/index.html",
+    "build": "parcel build --public-url ./ src/index.html",
     "clean": "rimraf dist .cache",
-    "deploy": "gh-pages -d master",
+    "deploy": "yarn dist && gh-pages -d dist -b master",
     "dist": "yarn clean && yarn build",
     "prettier": "prettier --single-quote --write src/**/*.{ts,html,css}",
-    "publish": "yarn dist && yarn deploy",
     "start": "parcel src/index.html --open"
   },
   "version": "1.0.0"
