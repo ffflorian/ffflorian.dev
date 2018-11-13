@@ -1,41 +1,41 @@
 @font-face {
-    font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?pkxwwy');
-    src: url('../fonts/icomoon.eot?pkxwwy#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?pkxwwy') format('truetype'),
-        url('../fonts/icomoon.woff?pkxwwy') format('woff'),
-        url('../fonts/icomoon.svg?pkxwwy#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?pkxwwy');
+  src: url('../fonts/icomoon.eot?pkxwwy#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?pkxwwy') format('truetype'), url('../fonts/icomoon.woff?pkxwwy') format('woff'),
+    url('../fonts/icomoon.svg?pkxwwy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+[class^='icon-'],
+[class*=' icon-'] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-mail:before {
-    content: "\e900";
+  content: '\e900';
 }
 .icon-gallery:before {
-    content: "\e90d";
+  content: '\e90d';
 }
 .icon-key:before {
-    content: "\e98d";
+  content: '\e98d';
 }
 .icon-telegram:before {
-    content: "\ea95";
+  content: '\ea95';
 }
 .icon-github:before {
-    content: "\eab0";
+  content: '\eab0';
 }
 .icon-xing:before {
-    content: "\ead3";
+  content: '\ead3';
 }
