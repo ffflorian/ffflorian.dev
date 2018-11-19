@@ -10,6 +10,13 @@ yarn dist
 * Start a web server which serves the `dist` folder.
 
 ## Serve in development mode
+
+Note: On Linux you need to set
+```
+sysctl fs.inotify.max_user_watches=60000
+```
+to allow file watching.
+
 ```
 yarn start
 ```
