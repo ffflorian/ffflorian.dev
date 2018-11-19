@@ -10,17 +10,17 @@
     "typescript": "3.1.6"
   },
   "license": "MIT",
-  "main": "index.js",
+  "main": "src/index.html",
   "name": "ffflorian.de",
   "private": true,
   "repository": "https://github.com/ffflorian/ffflorian.github.io",
   "scripts": {
-    "build": "parcel build --no-cache -d dist src/index.html",
+    "build": "parcel build --public-url ./ src/index.html",
     "clean": "rimraf dist .cache",
     "deploy": "yarn dist && gh-pages -d dist -b master -m \"Rebuild\"",
     "dist": "yarn clean && yarn build",
     "prettier": "prettier --single-quote --write src/**/*.{ts,html,css}",
-    "start": "parcel serve src/index.html --no-cache --open"
+    "start": "parcel src/index.html --open"
   },
   "version": "1.0.0"
 }
