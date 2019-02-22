@@ -7,7 +7,7 @@
     "rimraf": "2.6.3",
     "spectre.css": "0.5.8",
     "stylus": "0.54.5",
-    "typescript": "3.3.3"
+    "typescript": "3.3.3333"
   },
   "license": "MIT",
   "main": "src/index.html",
