@@ -1,4 +1,4 @@
-workflow "Build and test" {
+workflow "Build" {
   on = "push"
   resolves = "Build project"
 }
