@@ -1,4 +1,4 @@
-# ffflorian.github.io [![Build Status](https://travis-ci.org/ffflorian/ffflorian.github.io.svg?branch=dev)](https://travis-ci.org/ffflorian/ffflorian.github.io) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=ffflorian/ffflorian.github.io)](https://dependabot.com)
+# ffflorian.github.io [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=ffflorian/ffflorian.github.io)](https://dependabot.com)
 
 ## Build
 ```
