@@ -14,27 +14,48 @@ function getOffset(element: HTMLElement) {
   const box = element.getBoundingClientRect();
 
   return {
-    top: box.top + window.pageYOffset - document.documentElement.clientTop,
     left: box.left + window.pageXOffset - document.documentElement.clientLeft,
+    top: box.top + window.pageYOffset - document.documentElement.clientTop,
   };
 }
 
-function animate(element: HTMLElement, speed: number, params: {[index: string]: string}): void {
+function animate(element: HTMLElement, speed: number, params: {[key: string]: string}): void {
   element.style.transition = `all ${speed}`;
-  Object.keys(params).forEach(key => (element.style[key] = params[key]));
-};
+  Object.keys(params).forEach(key => (element.style[key as any] = params[key]));
+}
 
 isReady(() => {
-  getElementById('btnPGPKey').addEventListener('click', () => (getElementById('fingerprint').style.display = 'block'));
-  getElementById('btnGallery').addEventListener('click', event => {
-    event.preventDefault();
-    const galleryElement = getElementById('gallery');
-    galleryElement.style.display = 'block';
+  const fingerprintElement = getElementById('fingerprint');
 
-    const offset = getOffset(galleryElement).top;
+  const btnPGPKeyElement = getElementById('btnPGPKey');
+  if (btnPGPKeyElement) {
+    btnPGPKeyElement.addEventListener('click', () => {
+      if (fingerprintElement) {
+        fingerprintElement.style.display = 'block';
+      }
+    });
+  }
 
-    window.scroll({top: offset, left: 0, behavior: 'smooth'});
-  });
+  const btnGalleryElement = getElementById('btnPGPKey');
+  if (btnGalleryElement) {
+    btnGalleryElement.addEventListener('click', () => {
+      if (fingerprintElement) {
+        fingerprintElement.style.display = 'block';
+      }
+    });
+    btnGalleryElement.addEventListener('click', event => {
+      event.preventDefault();
+      const galleryElement = getElementById('gallery');
+      if (galleryElement) {
+        galleryElement.style.display = 'block';
+        const offset = getOffset(galleryElement).top;
+        window.scroll({top: offset, left: 0, behavior: 'smooth'});
+      }
+    });
+  }
 
-  getElementById('mail').setAttribute('href', 'mailto:hallo@ffflorian.de');
+  const mailElement = getElementById('mail');
+  if (mailElement) {
+    mailElement.setAttribute('href', 'mailto:hallo@ffflorian.de');
+  }
 });
