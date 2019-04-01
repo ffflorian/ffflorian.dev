@@ -1,6 +1,9 @@
-workflow "Build" {
+workflow "Build and lint" {
   on = "push"
-  resolves = "Build project"
+  resolves = [
+    "Build project",
+    "Lint project"
+  ]
 }
 
 action "Don't skip CI" {
@@ -19,4 +22,12 @@ action "Build project" {
   needs = "Install dependencies"
   runs = "yarn"
   args = "dist"
+}
+
+
+action "Lint project" {
+  uses = "docker://node:10-slim"
+  needs = "Install dependencies"
+  runs = "yarn"
+  args = "lint"
 }
