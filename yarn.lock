@@ -713,6 +713,11 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@ffflorian/prettier-config@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/@ffflorian/prettier-config/-/prettier-config-0.0.3.tgz#87be879c8d1d47ca698e9ce7d2be9af6b85ec917"
+  integrity sha512-EhlT3il2bb3GfTEDKxbmOjUpqzAJTc8ncRR4zJ2D2WtXyQiKqw/mINTVZFLh0MfAfFcc3TbLhfY2aHPnnxnvDw==
+
 "@iarna/toml@^2.2.0":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.1.tgz#82d0993d8882bb05e0645fbb4731d9e939e895b3"
