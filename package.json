@@ -2,7 +2,10 @@
   "author": "Florian Keller <github@floriankeller.de>",
   "devDependencies": {
     "@ffflorian/prettier-config": "0.0.3",
+    "@ffflorian/tslint-config": "0.1.0",
     "gh-pages": "2.0.1",
+    "husky": "2.2.0",
+    "lint-staged": "8.1.6",
     "parcel-bundler": "1.12.3",
     "prettier": "1.17.0",
     "rimraf": "2.6.3",
@@ -12,6 +15,11 @@
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.0.1",
     "typescript": "3.4.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "license": "MIT",
   "lint-staged": {
