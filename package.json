@@ -2,7 +2,7 @@
   "author": "Florian Keller <github@floriankeller.de>",
   "devDependencies": {
     "@ffflorian/prettier-config": "0.0.3",
-    "@ffflorian/tslint-config": "0.2.0",
+    "@ffflorian/tslint-config": "0.2.1",
     "gh-pages": "2.0.1",
     "husky": "2.3.0",
     "lint-staged": "8.1.7",
