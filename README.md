@@ -1,4 +1,4 @@
-# ffflorian.github.io [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=ffflorian/ffflorian.github.io)](https://dependabot.com)
+# ffflorian.github.io [![Build Status](https://action-badges.now.sh/ffflorian/ffflorian.github.io)](https://github.com/ffflorian/ffflorian.github.io/actions/) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=ffflorian/ffflorian.github.io)](https://dependabot.com)
 
 ## Build
 
