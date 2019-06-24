@@ -11,7 +11,7 @@
     "rimraf": "2.6.3",
     "spectre.css": "0.5.8",
     "stylus": "0.54.5",
-    "tslint": "5.17.0",
+    "tslint": "5.18.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.0.1",
     "typescript": "3.5.2"
