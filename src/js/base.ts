@@ -10,7 +10,7 @@ const getElementById = (id: string) => document.getElementById(id);
 
 const getFirstElementByTag = (id: string) => document.getElementsByTagName(id)[0];
 
-function getOffset(element: HTMLElement) {
+function getOffset(element: HTMLElement): {left: number; top: number} {
   const box = element.getBoundingClientRect();
 
   return {
