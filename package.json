@@ -10,7 +10,7 @@
     "prettier": "1.18.2",
     "rimraf": "3.0.0",
     "spectre.css": "0.5.8",
-    "stylus": "0.54.6",
+    "stylus": "0.54.7",
     "tslint": "5.19.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.0.1",
