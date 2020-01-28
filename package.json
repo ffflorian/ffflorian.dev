@@ -8,7 +8,7 @@
     "lint-staged": "10.0.3",
     "parcel-bundler": "1.12.4",
     "prettier": "1.19.1",
-    "rimraf": "3.0.0",
+    "rimraf": "3.0.1",
     "spectre.css": "0.5.8",
     "stylus": "0.54.7",
     "tslint": "5.20.1",
