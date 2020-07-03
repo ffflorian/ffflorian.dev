@@ -9,7 +9,7 @@
     "parcel-bundler": "1.12.4",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
-    "spectre.css": "0.5.8",
+    "spectre.css": "0.5.9",
     "stylus": "0.54.7",
     "tslint": "6.1.2",
     "tslint-config-prettier": "1.18.0",
