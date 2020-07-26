@@ -1,5 +1,5 @@
 {
-  "author": "Florian Keller <github@floriankeller.de>",
+  "author": "Florian Keller <git@ffflorian.de>",
   "devDependencies": {
     "@ffflorian/prettier-config": "0.1.1",
     "@ffflorian/tslint-config": "0.7.1",
