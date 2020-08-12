@@ -1,7 +1,7 @@
 {
   "author": "Florian Imdahl <git@ffflorian.de>",
   "devDependencies": {
-    "@ffflorian/prettier-config": "0.1.1",
+    "@ffflorian/prettier-config": "0.1.2",
     "@ffflorian/tslint-config": "0.7.1",
     "gh-pages": "3.1.0",
     "husky": "4.2.5",
