@@ -3,20 +3,29 @@ name: Build and lint
 on: [push, pull_request]
 
 jobs:
-  build_lint:
+  build_lint_test:
+    name: Build, lint and test
     runs-on: ubuntu-latest
+    if: |
+      !contains(github.event.head_commit.message, '[ci skip]') &&
+      !contains(github.event.head_commit.message, '[skip ci]')
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 10.x
-      - name: Build and lint
+          node-version: 14.x
+      - name: Get yarn cache
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: ${{ runner.os }}-yarn-
+      - name: Build, lint and test
         run: |
           yarn
           yarn lint
           yarn dist
-        if: |
-          contains(github.event.commits[0].message, '[skip ci]') == false &&
-          contains(github.event.commits[0].message, '[ci skip]') == false
