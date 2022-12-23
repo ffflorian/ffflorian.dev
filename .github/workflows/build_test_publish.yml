@@ -36,7 +36,10 @@ jobs:
           touch ./public/.nojekyll
 
       - name: Deploy
-        if: env.CI_SKIP == 'false' && github.ref == 'refs/heads/main'
+        if: |
+          env.CI_SKIP == 'false' &&
+          github.event_name != 'pull_request' &&
+          !startsWith(github.event.head_commit.message, 'chore(deps')
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: public
