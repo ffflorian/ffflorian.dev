@@ -16,9 +16,6 @@ jobs:
         with:
           submodules: true
 
-      - name: Skip CI check
-        uses: mstachniuk/ci-skip@v1
-
       - name: Set up Go
         if: env.CI_SKIP == 'false'
         uses: actions/setup-go@v3
