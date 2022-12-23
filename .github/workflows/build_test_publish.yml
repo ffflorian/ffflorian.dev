@@ -1,0 +1,42 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build_publish:
+    name: Build and publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Set up Go
+        if: env.CI_SKIP == 'false'
+        uses: actions/setup-go@v3
+
+      - name: Setup Hugo
+        if: env.CI_SKIP == 'false'
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.108.0'
+
+      - name: Build
+        if: env.CI_SKIP == 'false'
+        run: |
+          hugo --minify
+          touch ./public/.nojekyll
+
+      - name: Deploy
+        if: |
+          env.CI_SKIP == 'false' &&
+          github.event_name != 'pull_request' &&
+          !startsWith(github.event.head_commit.message, 'chore(deps')
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: public
