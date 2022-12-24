@@ -1,6 +1,7 @@
 ---
-title: "Fotografie"
-hidemeta: true
+title: 'Fotografie'
+description: 'Meine Arbeiten 2007–2012'
+hideMeta: true
 ---
 
 {{<figure src="/img/photography/der-hohe-norden.jpg" alt="Der hohe Norden" title="Der hohe Norden" width="500">}}
