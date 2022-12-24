@@ -26,6 +26,18 @@
                 href="https://ffflorian.dev/de/"
                 />
   </url><url>
+    <loc>https://ffflorian.dev/de/photography/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ffflorian.dev/en/photography/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://ffflorian.dev/de/photography/"
+                />
+  </url><url>
     <loc>https://ffflorian.dev/de/tags/</loc>
     <xhtml:link
                 rel="alternate"
