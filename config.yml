@@ -4,6 +4,7 @@ theme: PaperMod
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
+buildDrafts: true
 
 minify:
   disableXML: true
