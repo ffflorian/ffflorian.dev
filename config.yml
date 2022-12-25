@@ -11,6 +11,12 @@ minify:
   minifyOutput: false
 
 params:
+  assets:
+    favicon16x16: /img/favicon-16.png
+    favicon32x32: /img/favicon-32.png
+    favicon128x128: /img/favicon-128.png
+    apple_touch_icon: /img/favicon-160.png
+
   env: production
   title: Florian Imdahl
   keywords: [Florian Imdahl, TypeScript, Rust, Go]
