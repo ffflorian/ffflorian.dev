@@ -1,6 +1,6 @@
 baseURL: https://ffflorian.dev
 title: Florian Imdahl
-theme: PaperMod
+theme: PaperMod-ffflorian
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
