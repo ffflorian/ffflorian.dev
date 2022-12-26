@@ -1,6 +1,6 @@
 ---
 title: 'Photography'
-description: 'My works 2007–2012'
+description: 'My works from 2007 to 2012'
 hideMeta: true
 ---
 
