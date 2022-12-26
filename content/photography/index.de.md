@@ -6,59 +6,59 @@ hideMeta: true
 
 <div class="columns">
   <div class="column">
-    <img src="/img/photography/traeume-werden-realitaet.jpg" loading="lazy" alt="Br&uuml;hl, Deutschland, 2008">
-    <h6><a href="https://google.com/maps/?q=Br&uuml;hl,%20Germany" rel="noreferrer noopener">Br&uuml;hl, Deutschland</a>, 2008</h6>
+    <img src="/img/photography/traeume-werden-realitaet.jpg" loading="lazy" alt="Br&uuml;hl, 2008">
+    <h6>Br&uuml;hl, 2008</h6>
   </div>
   <div class="column">
-    <img src="/img/photography/paragraph-49.jpg" loading="lazy" alt="Br&uuml;hl, Deutschland, 2007">
-    <h6><a href="https://google.com/maps/?q=Br&uuml;hl,%20Germany" rel="noreferrer noopener">Br&uuml;hl, Deutschland</a>, 2007</h6>
+    <img src="/img/photography/paragraph-49.jpg" loading="lazy" alt="Br&uuml;hl, 2007">
+    <h6>Br&uuml;hl, 2007</h6>
   </div>
 </div>
 
 <div class="column">
-  <img src="/img/photography/lass-mich.jpg" loading="lazy" alt="K&ouml;ln, Deutschland, 2008">
-  <h6><a href="https://google.com/maps/?q=Cologne,%20Germany" rel="noreferrer noopener">K&ouml;ln, Deutschland</a>, 2008</h6>
+  <img src="/img/photography/lass-mich.jpg" loading="lazy" alt="K&ouml;ln, 2008">
+  <h6>K&ouml;ln, 2008</h6>
 </div>
 
 <div class="column">
   <img src="/img/photography/der-hohe-norden.jpg" loading="lazy" alt="Isle of Erraid, Schottland, 2009">
-  <h6><a href="https://google.com/maps/?q=Isle%20of%20Erraid,%20Scotland" rel="noreferrer noopener">Isle of Erraid, Schottland</a>, 2009</h6>
+  <h6>Isle of Erraid, Schottland, 2009</h6>
 </div>
 
 <div class="columns">
   <div class="column">
-    <img src="/img/photography/spree.jpg" loading="lazy" alt="Berlin, Deutschland, 2010">
-    <h6><a href="https://google.com/maps/?q=Berlin,%20Germany" rel="noreferrer noopener">Berlin, Deutschland</a>, 2010</h6>
+    <img src="/img/photography/spree.jpg" loading="lazy" alt="Berlin, 2010">
+    <h6>Berlin, 2010</h6>
   </div>
   <div class="column">
-    <img src="/img/photography/driven.jpg" loading="lazy" alt="Berlin, Deutschland, 2007">
-    <h6><a href="https://google.com/maps/?q=Berlin,%20Germany" rel="noreferrer noopener">Berlin, Deutschland</a>, 2007</h6>
+    <img src="/img/photography/driven.jpg" loading="lazy" alt="Berlin, 2007">
+    <h6>Berlin, 2007</h6>
   </div>
 </div>
 
 <div class="column">
   <img src="/img/photography/island-1.jpg" loading="lazy" alt="Kirkjufjara, Island, 2011">
-  <h6><a href="https://google.com/maps/?q=Kirkjufjara,%20Iceland" rel="noreferrer noopener">Kirkjufjara, Island</a>, 2011</h6>
+  <h6>Kirkjufjara, Island, 2011</h6>
 </div>
 
 <div class="columns">
   <div class="column">
     <img src="/img/photography/island-3.jpg" loading="lazy" alt="Kirkjufjara, Island, 2011">
-    <h6><a href="https://google.com/maps/?q=Kirkjufjara,%20Iceland" rel="noreferrer noopener">Kirkjufjara, Island</a>, 2011</h6>
+    <h6>Kirkjufjara, Island, 2011</h6>
   </div>
   <div class="column">
     <img src="/img/photography/island-2.jpg" loading="lazy" alt="Reykjav&iacute;k, Island, 2011">
-    <h6><a href="https://google.com/maps/?q=Reykjav&iacute;k,%20Iceland" rel="noreferrer noopener">Reykjav&iacute;k, Island</a>, 2011</h6>
+    <h6>Reykjav&iacute;k, Island, 2011</h6>
   </div>
 </div>
 
 <div class="columns">
   <div class="column">
     <img src="/img/photography/novosibirsk-1.jpg" loading="lazy" alt="Nowosibirsk, Russland, 2012">
-    <h6><a href="https://google.com/maps/?q=Novosibirsk,%20Russia" rel="noreferrer noopener">Nowosibirsk, Russland</a>, 2012</h6>
+    <h6>Nowosibirsk, Russland, 2012</h6>
   </div>
   <div class="column">
     <img src="/img/photography/novosibirsk-2.jpg" loading="lazy" alt="Nowosibirsk, Russland, 2012">
-    <h6><a href="https://google.com/maps/?q=Novosibirsk,%20Russia" rel="noreferrer noopener">Nowosibirsk, Russland</a>, 2012</h6>
+    <h6>Nowosibirsk, Russland, 2012</h6>
   </div>
 </div>
