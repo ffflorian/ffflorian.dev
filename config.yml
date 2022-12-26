@@ -10,6 +10,11 @@ minify:
   disableXML: true
   minifyOutput: false
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   assets:
     favicon16x16: /img/favicon-16.png
