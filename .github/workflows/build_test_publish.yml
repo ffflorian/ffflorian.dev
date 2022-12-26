@@ -31,7 +31,6 @@ jobs:
         run: |
           hugo --minify
           touch ./public/.nojekyll
-          cp 404.md ./public/
 
       - name: Deploy
         if: |
