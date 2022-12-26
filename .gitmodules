@@ -9,3 +9,6 @@
 	path = themes/PaperMod-ffflorian
 	url = https://github.com/ffflorian/hugo-PaperMod.git
 	branch = main
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke
