@@ -54,11 +54,11 @@ hideMeta: true
 
 <div class="columns">
   <div class="column">
-    <img src="/img/photography/novosibirsk-1.jpg" loading="lazy" alt="Nowosibirsk, Russia, 2012">
-    <h6>Nowosibirsk, Russia, 2012</h6>
+    <img src="/img/photography/novosibirsk-1.jpg" loading="lazy" alt="Novosibirsk, Russia, 2012">
+    <h6>Novosibirsk, Russia, 2012</h6>
   </div>
   <div class="column">
-    <img src="/img/photography/novosibirsk-2.jpg" loading="lazy" alt="Nowosibirsk, Russia, 2012">
-    <h6>Nowosibirsk, Russia, 2012</h6>
+    <img src="/img/photography/novosibirsk-2.jpg" loading="lazy" alt="Novosibirsk, Russia, 2012">
+    <h6>Novosibirsk, Russia, 2012</h6>
   </div>
 </div>
