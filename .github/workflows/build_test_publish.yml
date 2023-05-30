@@ -20,12 +20,12 @@ jobs:
           submodules: true
 
       - name: Set up Go
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v4
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.108.0'
+          hugo-version: '0.112.5'
 
       - name: Build
         run: |
