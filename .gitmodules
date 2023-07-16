@@ -1,14 +1,4 @@
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
-	branch = master
-[submodule "themes/PaperModX"]
-	path = themes/PaperModX
-	url = https://github.com/reorx/hugo-PaperModX.git
 [submodule "themes/PaperMod-ffflorian"]
 	path = themes/PaperMod-ffflorian
 	url = https://github.com/ffflorian/hugo-PaperMod.git
 	branch = main
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke
