@@ -27,6 +27,8 @@ params:
   keywords: [Florian Imdahl, TypeScript, Rust, Go]
   author: Me
   socialIcons:
+    - name: Email
+      url: mailto:hello@ffflorian.dev
     - name: Mastodon
       url: https://chaos.social/@ffflorian
     - name: GitHub
@@ -40,17 +42,17 @@ languages:
   en:
     weight: 1
     languageCode: en-us
-    languageName: 'English'
+    languageName: "English"
     displayFullLangName: true
     params:
-      description: 'Florian Imdahl | Software developer @ Deutsche Bahn | Learning Go, Rust, and Kubernetes'
+      description: "Florian Imdahl | Software developer @ Deutsche Bahn | Learning Go, Rust, and Kubernetes"
       profileMode:
         enabled: true
         title: Florian Imdahl
         imageUrl: /img/florian.jpg
         imageWidth: 200
         imageHeight: 200
-        subtitle: 'Software developer @ [Deutsche Bahn](https://deutschebahn.com) | Learning [Go](https://golang.com), [Rust](https://www.rust-lang.org), and [Kubernetes](https://kubernetes.io)'
+        subtitle: "Software developer @ [Deutsche Bahn](https://deutschebahn.com) | Learning [Go](https://golang.com), [Rust](https://www.rust-lang.org), and [Kubernetes](https://kubernetes.io)"
         imageTitle: Profile image of Florian Imdahl
     menu:
       main:
@@ -60,17 +62,17 @@ languages:
   de:
     weight: 2
     languageCode: de-de
-    languageName: 'Deutsch'
+    languageName: "Deutsch"
     displayFullLangName: true
     params:
-      description: 'Florian Imdahl | Softwareentwickler @ Deutsche Bahn | Lerne aktuell Go, Rust und Kubernetes'
+      description: "Florian Imdahl | Softwareentwickler @ Deutsche Bahn | Ich lerne aktuell Go, Rust und Kubernetes"
       profileMode:
         enabled: true
         title: Florian Imdahl
         imageUrl: /img/florian.jpg
         imageWidth: 200
         imageHeight: 200
-        subtitle: 'Softwareentwickler @ [Deutsche Bahn](https://deutschebahn.com) | Lerne aktuell [Go](https://golang.com), [Rust](https://www.rust-lang.org) und [Kubernetes](https://kubernetes.io)'
+        subtitle: "Softwareentwickler @ [Deutsche Bahn](https://deutschebahn.com) | Ich lerne aktuell [Go](https://golang.com), [Rust](https://www.rust-lang.org) und [Kubernetes](https://kubernetes.io)"
         imageTitle: Profilbild von Florian Imdahl
     menu:
       main:
