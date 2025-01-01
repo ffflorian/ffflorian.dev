@@ -52,7 +52,7 @@ languages:
         imageUrl: /img/florian.jpg
         imageWidth: 200
         imageHeight: 200
-        subtitle: "Software developer @ [Deutsche Bahn](https://deutschebahn.com) | Learning [Go](https://golang.com), [Rust](https://www.rust-lang.org), and [Kubernetes](https://kubernetes.io)"
+        subtitle: "DevOps Engineer @ [Deutsche Bahn](https://deutschebahn.com) | Learning [Go](https://golang.com), [Rust](https://www.rust-lang.org), and [Kubernetes](https://kubernetes.io)"
         imageTitle: Profile image of Florian Imdahl
     menu:
       main:
@@ -72,7 +72,7 @@ languages:
         imageUrl: /img/florian.jpg
         imageWidth: 200
         imageHeight: 200
-        subtitle: "Softwareentwickler @ [Deutsche Bahn](https://deutschebahn.com) | Ich lerne aktuell [Go](https://golang.com), [Rust](https://www.rust-lang.org) und [Kubernetes](https://kubernetes.io)"
+        subtitle: "DevOps Engineer @ [Deutsche Bahn](https://deutschebahn.com) | Ich lerne aktuell [Go](https://golang.com), [Rust](https://www.rust-lang.org) und [Kubernetes](https://kubernetes.io)"
         imageTitle: Profilbild von Florian Imdahl
     menu:
       main:
