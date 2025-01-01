@@ -45,7 +45,7 @@ languages:
     languageName: "English"
     displayFullLangName: true
     params:
-      description: "Florian Imdahl | Software developer @ Deutsche Bahn | Learning Go, Rust, and Kubernetes"
+      description: "Florian Imdahl | Software developer @ Deutsche Bahn&nbsp;| Learning&nbsp;Go,&nbsp;Rust, and Kubernetes"
       profileMode:
         enabled: true
         title: Florian Imdahl
