@@ -45,14 +45,14 @@ languages:
     languageName: "English"
     displayFullLangName: true
     params:
-      description: "Florian Imdahl | Software developer @ Deutsche Bahn&nbsp;| Learning&nbsp;Go,&nbsp;Rust, and Kubernetes"
+      description: "Florian Imdahl | Software developer @ Deutsche Bahn | Learning Go, Rust, and Python"
       profileMode:
         enabled: true
         title: Florian Imdahl
         imageUrl: /img/florian.jpg
         imageWidth: 200
         imageHeight: 200
-        subtitle: "DevOps Engineer @ [Deutsche Bahn](https://deutschebahn.com) | Learning [Go](https://golang.com), [Rust](https://www.rust-lang.org), and [Kubernetes](https://kubernetes.io)"
+        subtitle: "DevOps Engineer @ [Deutsche Bahn](https://deutschebahn.com)&nbsp;| Learning&nbsp;[Go](https://go.dev),&nbsp;[Rust](https://www.rust-lang.org), and [Python](https://www.python.org)"
         imageTitle: Profile image of Florian Imdahl
     menu:
       main:
@@ -65,14 +65,14 @@ languages:
     languageName: "Deutsch"
     displayFullLangName: true
     params:
-      description: "Florian Imdahl | Softwareentwickler @ Deutsche Bahn | Ich lerne aktuell Go, Rust und Kubernetes"
+      description: "Florian Imdahl | Softwareentwickler @ Deutsche Bahn | Ich lerne aktuell Go, Rust und Python"
       profileMode:
         enabled: true
         title: Florian Imdahl
         imageUrl: /img/florian.jpg
         imageWidth: 200
         imageHeight: 200
-        subtitle: "DevOps Engineer @ [Deutsche Bahn](https://deutschebahn.com) | Ich lerne aktuell [Go](https://golang.com), [Rust](https://www.rust-lang.org) und [Kubernetes](https://kubernetes.io)"
+        subtitle: "DevOps Engineer @ [Deutsche Bahn](https://deutschebahn.com) | Ich lerne aktuell [Go](https://go.dev), [Rust](https://www.rust-lang.org) und [Python](https://www.python.org)"
         imageTitle: Profilbild von Florian Imdahl
     menu:
       main:
