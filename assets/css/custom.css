@@ -1,0 +1,32 @@
+a.rounded {
+  text-align: left;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+h2 a:hover {
+  text-decoration: underline;
+  color: rgb(109, 85, 247)
+
+}
+
+.link-keyoxide {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.font-extrabold {
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .sm\:px-24 {
+    padding-left: 10%;
+  }
+}
