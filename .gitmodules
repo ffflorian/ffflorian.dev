@@ -1,4 +1,0 @@
-[submodule "themes/PaperMod-ffflorian"]
-	path = themes/PaperMod-ffflorian
-	url = https://github.com/ffflorian/hugo-PaperMod.git
-	branch = main

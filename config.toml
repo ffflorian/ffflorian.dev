@@ -1,0 +1,25 @@
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Florian Imdahl"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+   name = "Florian Imdahl"
+   headline = "DevOps Engineer @ [Deutsche Bahn](https://deutschebahn.com)"
+   image = "/img/florian_imdahl.jpg"
+
+  links = [
+    { link = { href = "/photography", text = "Photography", target="_self" } },
+    { email = "mailto:mailto:hello@ffflorian.dev" },
+    { github = "https://github.com/ffflorian" },
+    { mastodon = { href = "https://chaos.social/@ffflorian", text = "chaos.social" } },
+    { linkedin = "https://linkedin.com/in/ffflorian" },
+    { keyoxide = { href = "https://keyoxide.org/5B9DCD6E60D3813E82753335BDAD14B04B98BD1A", text = "Keyoxide" } }
+  ]
+
+[module.hugoVersion]
+  extended = false
+  min = "0.86.1"
