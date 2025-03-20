@@ -13,7 +13,7 @@ disableKinds = ["taxonomy", "term"]
 
   links = [
     { link = { href = "/photography", text = "Photography", target="_self" } },
-    { email = "mailto:mailto:hello@ffflorian.dev" },
+    { email = "mailto:hello@ffflorian.dev" },
     { github = "https://github.com/ffflorian" },
     { mastodon = { href = "https://chaos.social/@ffflorian", text = "chaos.social" } },
     { linkedin = "https://linkedin.com/in/ffflorian" },
