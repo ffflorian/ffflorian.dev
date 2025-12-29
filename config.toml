@@ -15,6 +15,7 @@ disableKinds = ["taxonomy", "term"]
     { link = { href = "/photography", text = "Photography", target="_self" } },
     { email = "mailto:hello@ffflorian.dev" },
     { github = "https://github.com/ffflorian" },
+    { gitlab = "https://gitlab.com/ffflorian" },
     { mastodon = { href = "https://chaos.social/@ffflorian", text = "chaos.social" } },
     { linkedin = "https://linkedin.com/in/ffflorian" },
     { keyoxide = { href = "https://keyoxide.org/5B9DCD6E60D3813E82753335BDAD14B04B98BD1A", text = "Keyoxide" } }
