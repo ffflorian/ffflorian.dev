@@ -1,2 +1,3 @@
-[[imports]]
-path = "github.com/jpanther/lynx"
+[module]
+  [[module.imports]]
+    path = "github.com/jpanther/lynx"
