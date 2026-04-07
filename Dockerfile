@@ -1,13 +1,11 @@
 # Build
-FROM hugomods/hugo:base-non-root-0.160.0 AS builder
+FROM hugomods/hugo:go-0.160.0 AS builder
 
 WORKDIR /app
 
 COPY . ./
 
 RUN hugo --minify
-
-RUN ls -la public
 
 # Serve
 FROM nginx:alpine
