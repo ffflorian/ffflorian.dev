@@ -7,6 +7,8 @@ COPY . ./
 
 RUN hugo --minify
 
+RUN ls -la public
+
 # Serve
 FROM nginx:alpine
 
