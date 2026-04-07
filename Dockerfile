@@ -1,5 +1,5 @@
 # Build
-FROM hugomods/hugo:base-non-root-0.145.0 AS builder
+FROM hugomods/hugo:base-non-root-0.108.0 AS builder
 
 WORKDIR /app
 
