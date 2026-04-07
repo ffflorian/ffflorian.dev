@@ -33,3 +33,6 @@ jobs:
         run: |
           hugo --minify
           touch ./public/.nojekyll
+
+      - name: Test
+        run: test -f ./public/index.html
