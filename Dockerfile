@@ -1,5 +1,5 @@
 # Build
-FROM hugomods/hugo:go-git-0.160.1@sha256:305a2a1c76007e72ed67cd71a4d202821325d600c7f85778fc8f269939077047 AS builder
+FROM hugomods/hugo:go-git-0.161.1@sha256:0b4c95b5b1fbd243c2b5d83c422ec0dec7bbf3afeb6aa678fd17ffb61ec47054 AS builder
 
 WORKDIR /app
 
