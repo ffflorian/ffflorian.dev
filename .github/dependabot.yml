@@ -18,10 +18,3 @@ updates:
       default-days: 5
       exclude:
         - 'ffflorian/*'
-  - package-ecosystem: gomod
-    directory: '/'
-    schedule:
-      interval: daily
-    open-pull-requests-limit: 99
-    assignees:
-      - ffflorian
