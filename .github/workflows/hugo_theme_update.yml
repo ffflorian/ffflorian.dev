@@ -18,4 +18,3 @@ jobs:
         with:
           git_authorship: Florian Imdahl <git@ffflorian.de>
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          cooldown_days: 0
