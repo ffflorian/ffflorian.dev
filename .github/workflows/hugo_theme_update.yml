@@ -1,0 +1,21 @@
+name: Update Hugo modules
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  hugo-theme-update:
+    permissions:
+      contents: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ffflorian/actions/hugo-theme-update@3db95cec5bc9800567b2435fb8938fd319c48429
+        with:
+          git_authorship: Florian Imdahl <git@ffflorian.de>
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          cooldown_days: 0
