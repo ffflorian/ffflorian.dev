@@ -77,7 +77,7 @@ jobs:
 
       - name: Send publish webhook
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: ffflorian/actions/github-webhook@c7044e7868b5cd3be772b51017a4bbdf7344c247
+        uses: ffflorian/actions/github-webhook@a0a2ae06249e17b033c28d9be811158e873f3d3b
         with:
           webhook_url: ${{ env.WEBHOOK_URL }}
           event_type: docker_image_published
