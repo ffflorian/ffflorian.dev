@@ -80,5 +80,5 @@ jobs:
         uses: ffflorian/actions/github-webhook@a0a2ae06249e17b033c28d9be811158e873f3d3b
         with:
           webhook_url: ${{ secrets.WEBHOOK_URL }}
-          event_type: docker_image_published
+          event_type: push
           secret: ${{ secrets.WEBHOOK_SECRET }}
