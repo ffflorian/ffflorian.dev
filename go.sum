@@ -1,2 +1,4 @@
 github.com/ffflorian/lynx v0.0.0-20260503045702-788344e6a8e3 h1:86hyU3rKXqdwd9UMrDRnfhJOH8fiyeSe0aWvRR7cI2I=
 github.com/ffflorian/lynx v0.0.0-20260503045702-788344e6a8e3/go.mod h1:p69Q+Ajczb45v+eElEGJiqKUfk6jjYBLno0awC5StTQ=
+github.com/ffflorian/lynx v0.0.0-20260520114600-7c94bdfe4dca h1:hs/HGBMioCUAiTAhqfioIPvdulZhnvhJlLaGRSVc0LQ=
+github.com/ffflorian/lynx v0.0.0-20260520114600-7c94bdfe4dca/go.mod h1:p69Q+Ajczb45v+eElEGJiqKUfk6jjYBLno0awC5StTQ=
