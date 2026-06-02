@@ -14,7 +14,7 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - uses: ffflorian/actions/hugo-theme-update@ab77083a817e863fbd74dd2cbab57a6d27a22e28 # v1.12.0
+      - uses: ffflorian/actions/hugo-theme-update@395dd69a8fe27cbaaf9ee09ebfaeefaf92dfdda5 # v1.12.0
         with:
           git_authorship: Florian Imdahl <git@ffflorian.de>
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
