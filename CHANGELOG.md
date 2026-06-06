@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.0...v1.1.1) (2026-06-06)
+
+
+### Bug Fixes
+
+* **nginx:** add security headers ([#266](https://github.com/ffflorian/ffflorian.dev/issues/266)) ([eee3dde](https://github.com/ffflorian/ffflorian.dev/commit/eee3dde3c7d63ea65b2a886283fdee1464322aed))
+
 # [1.1.0](https://github.com/ffflorian/ffflorian.dev/compare/v1.0.1...v1.1.0) (2026-06-06)
 
 
