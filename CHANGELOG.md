@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ffflorian/ffflorian.dev/compare/v1.0.1...v1.1.0) (2026-06-06)
+
+
+### Features
+
+* bump ffflorian/actions to v1.26.0 and add build metadata ([#264](https://github.com/ffflorian/ffflorian.dev/issues/264)) ([ce11e93](https://github.com/ffflorian/ffflorian.dev/commit/ce11e934104832a98fec9db83a95086f0aab6460))
+
 ## [1.0.1](https://github.com/ffflorian/ffflorian.dev/compare/v1.0.0...v1.0.1) (2026-06-04)
 
 # 1.0.0 (2026-05-27)
