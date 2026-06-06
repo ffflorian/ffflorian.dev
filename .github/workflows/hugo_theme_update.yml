@@ -9,6 +9,7 @@ permissions: {}
 
 jobs:
   hugo-theme-update:
+    name: Hugo theme update
     permissions:
       contents: write
       pull-requests: write
