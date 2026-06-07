@@ -16,7 +16,7 @@ jobs:
       deployments: write
     steps:
       - name: Deploy
-        uses: ffflorian/actions/coolify-deploy@468a7da06562bdb88fa18731cdb41d639f172d8e
+        uses: ffflorian/actions/coolify-deploy@9c7842ec0251a5890f0ca9ef22deed8dbc4ea9fa
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           domain: ${{ secrets.COOLIFY_DOMAIN }}
