@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.1...v1.1.2) (2026-06-15)
+
+
+### Bug Fixes
+
+* nginx config ([0b284f5](https://github.com/ffflorian/ffflorian.dev/commit/0b284f5d5a93e91bde5fa1de157b3cd083878446))
+
 ## [1.1.1](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.0...v1.1.1) (2026-06-06)
 
 
