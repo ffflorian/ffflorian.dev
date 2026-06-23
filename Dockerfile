@@ -14,7 +14,7 @@ COPY . ./
 RUN hugo --minify
 
 # Serve
-FROM nginx:1.31.1-alpine@sha256:8b1e78743a03dbb2c95171cc58639fef29abc8816598e27fb910ed2e621e589a
+FROM nginx:1.31.2-alpine@sha256:1a8724a52d432501548a8d8681bb1554c2d09778f8b9ed0882fc3442549980b7
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/public /usr/share/nginx/html
