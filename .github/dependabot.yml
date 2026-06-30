@@ -16,7 +16,7 @@ updates:
   - assignees:
       - ffflorian
     commit-message:
-      prefix-development: ci(deps)
+      prefix: ci(deps)
     cooldown:
       default-days: 5
       exclude:
