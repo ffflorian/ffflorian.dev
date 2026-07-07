@@ -1,5 +1,5 @@
 # Build
-FROM hugomods/hugo:go-git-0.163.3@sha256:13f19a0c5ef993ad88834526901c5df5dcaa26b4936fde0a50dcd3d80b51d275 AS builder
+FROM hugomods/hugo:go-git-0.164.0@sha256:aef0d2f3361bbc92eb45c6dab4085a173c7257935128436acef94dd9a8be1ece AS builder
 
 ARG COMMIT
 ARG VERSION
