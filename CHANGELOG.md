@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.4...v1.1.5) (2026-07-07)
+
+
+### Bug Fixes
+
+* **deps:** bump hugomods/hugo from go-git-0.163.3 to go-git-0.164.0 ([#293](https://github.com/ffflorian/ffflorian.dev/issues/293)) ([bf19cc9](https://github.com/ffflorian/ffflorian.dev/commit/bf19cc98d2f35c0135ba6181a8efb86c9371d81b))
+
 ## [1.1.4](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.3...v1.1.4) (2026-06-30)
 
 
