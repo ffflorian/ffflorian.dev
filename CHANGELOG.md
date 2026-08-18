@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/[secure]/[secure].dev/compare/v1.1.6...v1.1.7) (2026-08-18)
+
+
+### Bug Fixes
+
+* **deps:** bump hugomods/hugo from go-git-0.164.0 to go-git-0.165.0 ([#305](https://github.com/[secure]/[secure].dev/issues/305)) ([e0ac219](https://github.com/[secure]/[secure].dev/commit/e0ac2190df15962a4530ff2a74909db9cef713b3))
+
 ## [1.1.6](https://github.com/[secure]/[secure].dev/compare/v1.1.5...v1.1.6) (2026-07-21)
 
 
