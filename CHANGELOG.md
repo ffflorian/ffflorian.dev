@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/[secure]/[secure].dev/compare/v1.1.8...v1.1.9) (2026-09-08)
+
+
+### Bug Fixes
+
+* **deps:** bump nginx from 1.31.4-alpine to 1.31.5-alpine ([#309](https://github.com/[secure]/[secure].dev/issues/309)) ([e0a3ad0](https://github.com/[secure]/[secure].dev/commit/e0a3ad074a6a6e3d6d1ed499087fbc88d4153e90))
+
 ## [1.1.8](https://github.com/[secure]/[secure].dev/compare/v1.1.7...v1.1.8) (2026-08-25)
 
 
