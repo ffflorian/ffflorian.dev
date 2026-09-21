@@ -3,6 +3,7 @@ name: Update Hugo modules
 on:
   schedule:
     - cron: '0 6 * * 1'
+      timezone: 'Europe/Berlin'
   workflow_dispatch:
 
 permissions: {}
