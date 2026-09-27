@@ -56,7 +56,7 @@ Kirkjufjara, Iceland, 2011
 
 ---
 
-![Calico cat sitting on a chair and looking out of a skylight window in a dim attic room](/img/photography/island-2.jpg)
+![Cat sitting on a chair and looking out of a skylight window in a dim attic room](/img/photography/island-2.jpg)
 
 Reykjavík, Iceland, 2011
 
