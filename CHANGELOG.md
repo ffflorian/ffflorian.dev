@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/[secure]/[secure].dev/compare/v1.1.10...v1.2.0) (2026-09-27)
+
+
+### Features
+
+* **content:** add descriptive alt texts for images ([#314](https://github.com/[secure]/[secure].dev/issues/314)) ([4ded1d6](https://github.com/[secure]/[secure].dev/commit/4ded1d6f98f2c07463ff3bd2e5653a79af7afe0a))
+
 ## [1.1.10](https://github.com/[secure]/[secure].dev/compare/v1.1.9...v1.1.10) (2026-09-22)
 
 
