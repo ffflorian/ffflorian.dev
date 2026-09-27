@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/[secure]/[secure].dev/compare/v1.2.0...v1.2.1) (2026-09-27)
+
+
+### Bug Fixes
+
+* Restyle headline after Lynx switched it from h2 to p ([#316](https://github.com/[secure]/[secure].dev/issues/316)) ([9f50dce](https://github.com/[secure]/[secure].dev/commit/9f50dcea013d4d023ed5ae97ae862935dd285185))
+
 # [1.2.0](https://github.com/[secure]/[secure].dev/compare/v1.1.10...v1.2.0) (2026-09-27)
 
 
