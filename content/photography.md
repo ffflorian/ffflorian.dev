@@ -37,7 +37,7 @@ Berlin, 2010
 
 ---
 
-![Long exposure at night of a passing vehicle as a streak of yellow light on an empty street](/img/photography/driven.jpg)
+![Long exposure at night of a passing tram as a streak of yellow light on an empty street](/img/photography/driven.jpg)
 *Driven*
 
 Berlin, 2007
