@@ -15,6 +15,7 @@ disableKinds = ["taxonomy", "term"]
    name = "Florian Imdahl"
    headline = "DevOps Engineer @ [Deutsche Bahn](https://deutschebahn.com)"
    image = "/img/florian_imdahl.jpg"
+   imageAlt = "Person seen from behind, wearing glasses and a black hoodie in front of a colorful light installation"
 
   links = [
     { link = { href = "/photography", text = "Photography", target="_self" } },
