@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/[secure]/[secure].dev/compare/v1.2.1...v1.2.2) (2026-09-29)
+
+
+### Bug Fixes
+
+* **deps:** bump nginx from `adad2ae` to `df221db` ([#317](https://github.com/[secure]/[secure].dev/issues/317)) ([785145a](https://github.com/[secure]/[secure].dev/commit/785145ab5aee2197d3271b66de3abf58e9f47633))
+
 ## [1.2.1](https://github.com/[secure]/[secure].dev/compare/v1.2.0...v1.2.1) (2026-09-27)
 
 
