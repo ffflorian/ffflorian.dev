@@ -115,19 +115,131 @@ jobs:
           git_author: 'ffflorian'
           git_email: 'git@ffflorian.de'
 
+  # semantic-release pushes the version tag before it creates the GitHub release
+  # and before the Docker image is pushed. If the publish job fails after the
+  # tag was pushed, re-runs find no new commits and never publish the release.
+  # This job creates the GitHub release and publishes the image for the latest
+  # version tag if they are missing.
+  recover_release:
+    name: Publish missing release and Docker image
+    needs: publish
+    permissions:
+      contents: write
+      packages: write
+    outputs:
+      image_published: ${{ steps.build.outputs.image_published }}
+    runs-on: ubuntu-latest
+    if: |
+      always() &&
+      github.event_name == 'push' && github.ref == 'refs/heads/main' &&
+      (needs.publish.result == 'failure' || (needs.publish.result == 'success' && needs.publish.outputs.new_release_published != 'true'))
+    env:
+      IMAGE_NAME: ghcr.io/${{ github.repository }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check for missing image
+        id: check
+        run: |
+          tag="$(git describe --tags --abbrev=0 --match 'v[0-9]*')"
+          version="${tag#v}"
+          {
+            echo "tag=${tag}"
+            echo "version=${version}"
+            echo "commit=$(git rev-list -n 1 "${tag}")"
+          } >> "$GITHUB_OUTPUT"
+          if docker manifest inspect "${IMAGE_NAME}:${version}" > /dev/null 2>&1; then
+            echo "Image ${IMAGE_NAME}:${version} exists, nothing to recover"
+            echo "missing=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Image ${IMAGE_NAME}:${version} is missing"
+            echo "missing=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create missing GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.check.outputs.tag }}
+          VERSION: ${{ steps.check.outputs.version }}
+        run: |
+          if gh release view "${TAG}" > /dev/null 2>&1; then
+            echo "Release ${TAG} exists"
+            exit 0
+          fi
+          # semantic-release writes the release notes to CHANGELOG.md in the release commit
+          git show "${TAG}:CHANGELOG.md" | awk -v version="${VERSION}" '
+            /^##? / { if (found) exit; found = ($2 == version || index($2, "[" version "]") == 1) }
+            found { print }
+          ' > "${RUNNER_TEMP}/notes.md"
+          if [ -s "${RUNNER_TEMP}/notes.md" ]; then
+            gh release create "${TAG}" --verify-tag --title "${TAG}" --notes-file "${RUNNER_TEMP}/notes.md"
+          else
+            gh release create "${TAG}" --verify-tag --title "${TAG}" --generate-notes
+          fi
+
+      - name: Check out release tag
+        if: steps.check.outputs.missing == 'true'
+        run: git checkout "${{ steps.check.outputs.tag }}"
+
+      - name: Extract Docker metadata
+        if: steps.check.outputs.missing == 'true'
+        id: docker-meta
+        uses: docker/metadata-action@80c7e94dd9b9319bd5eb7a0e0fe9291e23a2a2e9
+        with:
+          images: ${{ env.IMAGE_NAME }}
+
+      - name: Build and push Docker image
+        if: steps.check.outputs.missing == 'true'
+        id: build
+        env:
+          LABELS: ${{ steps.docker-meta.outputs.labels }}
+          VERSION: ${{ steps.check.outputs.version }}
+          COMMIT: ${{ steps.check.outputs.commit }}
+        run: |
+          label_args=()
+          while IFS= read -r label; do
+            [ -z "$label" ] && continue
+            label_args+=(--label "$label")
+          done <<< "${LABELS}"
+
+          docker buildx build \
+            --push \
+            --file Dockerfile \
+            --tag "${IMAGE_NAME}:${VERSION}" \
+            --tag "${IMAGE_NAME}:latest" \
+            "${label_args[@]}" \
+            --build-arg "VERSION=${VERSION}" \
+            --build-arg "COMMIT=${COMMIT}" \
+            .
+          echo "image_published=true" >> "$GITHUB_OUTPUT"
+
   # Deploy is part of this workflow because GitHub does not fire release events
   # when a release is created by a workflow using GITHUB_TOKEN, so a separate
   # deploy.yml listening on release:published would never be triggered.
   deploy:
     name: Deploy latest image
-    needs: publish
+    needs:
+      - publish
+      - recover_release
     runs-on: ubuntu-latest
     permissions:
       deployments: write
     if: |
       always() && (
         github.event_name == 'workflow_dispatch' ||
-        (needs.publish.result == 'success' && needs.publish.outputs.new_release_published == 'true' && github.event_name == 'push' && github.ref == 'refs/heads/main')
+        (needs.publish.result == 'success' && needs.publish.outputs.new_release_published == 'true' && github.event_name == 'push' && github.ref == 'refs/heads/main') ||
+        (needs.recover_release.result == 'success' && needs.recover_release.outputs.image_published == 'true')
       )
     steps:
       - name: Deploy
