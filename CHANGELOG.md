@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/[secure]/[secure].dev/compare/v1.2.3...v1.2.4) (2026-10-11)
+
+
+### Bug Fixes
+
+* Force deployment ([0bf2e72](https://github.com/[secure]/[secure].dev/commit/0bf2e725a7ecfefb3a9306fabff9c5890894e6c0))
+
 ## [1.2.3](https://github.com/[secure]/[secure].dev/compare/v1.2.2...v1.2.3) (2026-10-11)
 
 
