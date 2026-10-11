@@ -117,13 +117,14 @@ jobs:
 
   # semantic-release pushes the version tag before it creates the GitHub release
   # and before the Docker image is pushed. If the publish job fails after the
-  # tag was pushed, re-runs find no new commits and never publish the image.
-  # This job publishes the image for the latest version tag if it is missing.
+  # tag was pushed, re-runs find no new commits and never publish the release.
+  # This job creates the GitHub release and publishes the image for the latest
+  # version tag if they are missing.
   recover_release:
-    name: Publish missing Docker image
+    name: Publish missing release and Docker image
     needs: publish
     permissions:
-      contents: read
+      contents: write
       packages: write
     outputs:
       image_published: ${{ steps.build.outputs.image_published }}
@@ -164,6 +165,27 @@ jobs:
           else
             echo "Image ${IMAGE_NAME}:${version} is missing"
             echo "missing=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create missing GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.check.outputs.tag }}
+          VERSION: ${{ steps.check.outputs.version }}
+        run: |
+          if gh release view "${TAG}" > /dev/null 2>&1; then
+            echo "Release ${TAG} exists"
+            exit 0
+          fi
+          # semantic-release writes the release notes to CHANGELOG.md in the release commit
+          git show "${TAG}:CHANGELOG.md" | awk -v version="${VERSION}" '
+            /^##? / { if (found) exit; found = ($2 == version || index($2, "[" version "]") == 1) }
+            found { print }
+          ' > "${RUNNER_TEMP}/notes.md"
+          if [ -s "${RUNNER_TEMP}/notes.md" ]; then
+            gh release create "${TAG}" --verify-tag --title "${TAG}" --notes-file "${RUNNER_TEMP}/notes.md"
+          else
+            gh release create "${TAG}" --verify-tag --title "${TAG}" --generate-notes
           fi
 
       - name: Check out release tag
