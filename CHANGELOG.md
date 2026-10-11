@@ -1,72 +1,72 @@
-## [1.2.4](https://github.com/[secure]/[secure].dev/compare/v1.2.3...v1.2.4) (2026-10-11)
+## [1.2.4](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.3...v1.2.4) (2026-10-11)
 
 
 ### Bug Fixes
 
-* Force deployment ([0bf2e72](https://github.com/[secure]/[secure].dev/commit/0bf2e725a7ecfefb3a9306fabff9c5890894e6c0))
+* Force deployment ([0bf2e72](https://github.com/ffflorian/ffflorian.dev/commit/0bf2e725a7ecfefb3a9306fabff9c5890894e6c0))
 
-## [1.2.3](https://github.com/[secure]/[secure].dev/compare/v1.2.2...v1.2.3) (2026-10-11)
-
-
-### Bug Fixes
-
-* **deps:** update Hugo modules ([#320](https://github.com/[secure]/[secure].dev/issues/320)) ([93fc420](https://github.com/[secure]/[secure].dev/commit/93fc420c2a56e991560af593ac239f7872566953))
-
-## [1.2.2](https://github.com/[secure]/[secure].dev/compare/v1.2.1...v1.2.2) (2026-09-29)
+## [1.2.3](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.2...v1.2.3) (2026-10-11)
 
 
 ### Bug Fixes
 
-* **deps:** bump nginx from `adad2ae` to `df221db` ([#317](https://github.com/[secure]/[secure].dev/issues/317)) ([785145a](https://github.com/[secure]/[secure].dev/commit/785145ab5aee2197d3271b66de3abf58e9f47633))
+* **deps:** update Hugo modules ([#320](https://github.com/ffflorian/ffflorian.dev/issues/320)) ([93fc420](https://github.com/ffflorian/ffflorian.dev/commit/93fc420c2a56e991560af593ac239f7872566953))
 
-## [1.2.1](https://github.com/[secure]/[secure].dev/compare/v1.2.0...v1.2.1) (2026-09-27)
+## [1.2.2](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.1...v1.2.2) (2026-09-29)
 
 
 ### Bug Fixes
 
-* Restyle headline after Lynx switched it from h2 to p ([#316](https://github.com/[secure]/[secure].dev/issues/316)) ([9f50dce](https://github.com/[secure]/[secure].dev/commit/9f50dcea013d4d023ed5ae97ae862935dd285185))
+* **deps:** bump nginx from `adad2ae` to `df221db` ([#317](https://github.com/ffflorian/ffflorian.dev/issues/317)) ([785145a](https://github.com/ffflorian/ffflorian.dev/commit/785145ab5aee2197d3271b66de3abf58e9f47633))
 
-# [1.2.0](https://github.com/[secure]/[secure].dev/compare/v1.1.10...v1.2.0) (2026-09-27)
+## [1.2.1](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.0...v1.2.1) (2026-09-27)
+
+
+### Bug Fixes
+
+* Restyle headline after Lynx switched it from h2 to p ([#316](https://github.com/ffflorian/ffflorian.dev/issues/316)) ([9f50dce](https://github.com/ffflorian/ffflorian.dev/commit/9f50dcea013d4d023ed5ae97ae862935dd285185))
+
+# [1.2.0](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.10...v1.2.0) (2026-09-27)
 
 
 ### Features
 
-* **content:** add descriptive alt texts for images ([#314](https://github.com/[secure]/[secure].dev/issues/314)) ([4ded1d6](https://github.com/[secure]/[secure].dev/commit/4ded1d6f98f2c07463ff3bd2e5653a79af7afe0a))
+* **content:** add descriptive alt texts for images ([#314](https://github.com/ffflorian/ffflorian.dev/issues/314)) ([4ded1d6](https://github.com/ffflorian/ffflorian.dev/commit/4ded1d6f98f2c07463ff3bd2e5653a79af7afe0a))
 
-## [1.1.10](https://github.com/[secure]/[secure].dev/compare/v1.1.9...v1.1.10) (2026-09-22)
-
-
-### Bug Fixes
-
-* **deps:** bump nginx from 1.31.5-alpine to 1.31.6-alpine ([#312](https://github.com/[secure]/[secure].dev/issues/312)) ([078ff87](https://github.com/[secure]/[secure].dev/commit/078ff87694eda6ddad5477c085c69ad42bb48a5c))
-
-## [1.1.9](https://github.com/[secure]/[secure].dev/compare/v1.1.8...v1.1.9) (2026-09-08)
+## [1.1.10](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.9...v1.1.10) (2026-09-22)
 
 
 ### Bug Fixes
 
-* **deps:** bump nginx from 1.31.4-alpine to 1.31.5-alpine ([#309](https://github.com/[secure]/[secure].dev/issues/309)) ([e0a3ad0](https://github.com/[secure]/[secure].dev/commit/e0a3ad074a6a6e3d6d1ed499087fbc88d4153e90))
+* **deps:** bump nginx from 1.31.5-alpine to 1.31.6-alpine ([#312](https://github.com/ffflorian/ffflorian.dev/issues/312)) ([078ff87](https://github.com/ffflorian/ffflorian.dev/commit/078ff87694eda6ddad5477c085c69ad42bb48a5c))
 
-## [1.1.8](https://github.com/[secure]/[secure].dev/compare/v1.1.7...v1.1.8) (2026-08-25)
-
-
-### Bug Fixes
-
-* **deps:** bump nginx from 1.31.3-alpine to 1.31.4-alpine ([#307](https://github.com/[secure]/[secure].dev/issues/307)) ([eed40b8](https://github.com/[secure]/[secure].dev/commit/eed40b8d83823b3ba2f10ae6f223c7e148e787ab))
-
-## [1.1.7](https://github.com/[secure]/[secure].dev/compare/v1.1.6...v1.1.7) (2026-08-18)
+## [1.1.9](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.8...v1.1.9) (2026-09-08)
 
 
 ### Bug Fixes
 
-* **deps:** bump hugomods/hugo from go-git-0.164.0 to go-git-0.165.0 ([#305](https://github.com/[secure]/[secure].dev/issues/305)) ([e0ac219](https://github.com/[secure]/[secure].dev/commit/e0ac2190df15962a4530ff2a74909db9cef713b3))
+* **deps:** bump nginx from 1.31.4-alpine to 1.31.5-alpine ([#309](https://github.com/ffflorian/ffflorian.dev/issues/309)) ([e0a3ad0](https://github.com/ffflorian/ffflorian.dev/commit/e0a3ad074a6a6e3d6d1ed499087fbc88d4153e90))
 
-## [1.1.6](https://github.com/[secure]/[secure].dev/compare/v1.1.5...v1.1.6) (2026-07-21)
+## [1.1.8](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.7...v1.1.8) (2026-08-25)
 
 
 ### Bug Fixes
 
-* **deps:** bump nginx from 1.31.2-alpine to 1.31.3-alpine ([#297](https://github.com/[secure]/[secure].dev/issues/297)) ([8c133d5](https://github.com/[secure]/[secure].dev/commit/8c133d50ba02c2f6695a3ca07a962ebcffe566a1))
+* **deps:** bump nginx from 1.31.3-alpine to 1.31.4-alpine ([#307](https://github.com/ffflorian/ffflorian.dev/issues/307)) ([eed40b8](https://github.com/ffflorian/ffflorian.dev/commit/eed40b8d83823b3ba2f10ae6f223c7e148e787ab))
+
+## [1.1.7](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.6...v1.1.7) (2026-08-18)
+
+
+### Bug Fixes
+
+* **deps:** bump hugomods/hugo from go-git-0.164.0 to go-git-0.165.0 ([#305](https://github.com/ffflorian/ffflorian.dev/issues/305)) ([e0ac219](https://github.com/ffflorian/ffflorian.dev/commit/e0ac2190df15962a4530ff2a74909db9cef713b3))
+
+## [1.1.6](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.5...v1.1.6) (2026-07-21)
+
+
+### Bug Fixes
+
+* **deps:** bump nginx from 1.31.2-alpine to 1.31.3-alpine ([#297](https://github.com/ffflorian/ffflorian.dev/issues/297)) ([8c133d5](https://github.com/ffflorian/ffflorian.dev/commit/8c133d50ba02c2f6695a3ca07a962ebcffe566a1))
 
 ## [1.1.5](https://github.com/ffflorian/ffflorian.dev/compare/v1.1.4...v1.1.5) (2026-07-07)
 
