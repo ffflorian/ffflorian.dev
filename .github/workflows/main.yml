@@ -112,7 +112,7 @@ jobs:
         uses: ffflorian/actions/docker-image-release@b49e8f5432fa2d10d8f64efaa8bc33977c26123e
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          git_author: 'ffflorian'
+          git_author: 'Florian Imdahl'
           git_email: 'git@ffflorian.de'
 
   # semantic-release pushes the version tag before it creates the GitHub release
