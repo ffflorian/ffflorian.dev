@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/[secure]/[secure].dev/compare/v1.2.2...v1.2.3) (2026-10-11)
+
+
+### Bug Fixes
+
+* **deps:** update Hugo modules ([#320](https://github.com/[secure]/[secure].dev/issues/320)) ([93fc420](https://github.com/[secure]/[secure].dev/commit/93fc420c2a56e991560af593ac239f7872566953))
+
 ## [1.2.2](https://github.com/[secure]/[secure].dev/compare/v1.2.1...v1.2.2) (2026-09-29)
 
 
