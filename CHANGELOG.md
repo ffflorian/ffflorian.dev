@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.4...v1.2.5) (2026-10-13)
+
+
+### Bug Fixes
+
+* Disable absolute redirects in nginx config ([372fdbe](https://github.com/ffflorian/ffflorian.dev/commit/372fdbe10dd939bda3b9d117a4ca244b3e7a13b5))
+
 ## [1.2.4](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.3...v1.2.4) (2026-10-11)
 
 
