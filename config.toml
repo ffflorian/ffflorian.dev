@@ -18,7 +18,7 @@ disableKinds = ["taxonomy", "term"]
    imageAlt = "Person seen from behind, wearing glasses and a black hoodie in front of a colorful light installation"
 
   links = [
-    { link = { href = "/photography", text = "Photography", target="_self" } },
+    { link = { href = "/photography/", text = "Photography", target="_self" } },
     { email = "mailto:hello@ffflorian.dev" },
     { github = "https://github.com/ffflorian" },
     { gitlab = "https://gitlab.com/ffflorian" },
