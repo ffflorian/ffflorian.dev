@@ -7,19 +7,19 @@ workflows:
         - 'actions/delete-package-versions@v5.0.0'
     '.github/workflows/force_release.yml':
         - 'actions/checkout@v7.0.1'
-        - 'ffflorian/actions@v1.30.10'
+        - 'ffflorian/actions@v1.30.11'
     '.github/workflows/git_mirror.yml':
-        - 'ffflorian/actions@v1.30.10'
+        - 'ffflorian/actions@v1.30.11'
     '.github/workflows/hugo_theme_update.yml':
-        - 'ffflorian/actions@v1.30.10'
+        - 'ffflorian/actions@v1.30.11'
     '.github/workflows/main.yml':
         - 'actions/checkout@v7.0.1'
         - 'actions/setup-go@v7.0.0'
         - 'docker/build-push-action@v7.4.0'
-        - 'docker/login-action@v4.2.0'
-        - 'docker/metadata-action@v6.1.0'
+        - 'docker/login-action@v4.6.0'
+        - 'docker/metadata-action@v6.2.0'
         - 'docker/setup-buildx-action@v4.4.1'
-        - 'ffflorian/actions@v1.30.10'
+        - 'ffflorian/actions@v1.30.11'
         - 'hadolint/hadolint-action@v3.5.0'
         - 'peaceiris/actions-hugo@v3.2.1'
 dependencies:
@@ -73,9 +73,9 @@ dependencies:
         commit: 'sha1-650006c6eb7dba73a995cc03b0b2d7f5ca915bee'
         owner_id: 5429470
         repo_id: 287743349
-    'docker/login-action@v4.2.0':
-        ref: 'v4.2.0'
-        commit: 'sha1-650006c6eb7dba73a995cc03b0b2d7f5ca915bee'
+    'docker/login-action@v4.6.0':
+        ref: 'v4.6.0'
+        commit: 'sha1-dbcb813823bdd20940b903addbd779551569679f'
         owner_id: 5429470
         repo_id: 287743349
     'docker/metadata-action@80c7e94dd9b9319bd5eb7a0e0fe9291e23a2a2e9':
@@ -83,9 +83,9 @@ dependencies:
         commit: 'sha1-80c7e94dd9b9319bd5eb7a0e0fe9291e23a2a2e9'
         owner_id: 5429470
         repo_id: 306769011
-    'docker/metadata-action@v6.1.0':
-        ref: 'v6.1.0'
-        commit: 'sha1-80c7e94dd9b9319bd5eb7a0e0fe9291e23a2a2e9'
+    'docker/metadata-action@v6.2.0':
+        ref: 'v6.2.0'
+        commit: 'sha1-dc802804100637a589fabce1cb79ff13a1411302'
         owner_id: 5429470
         repo_id: 306769011
     'docker/setup-buildx-action@v4.4.1':
@@ -93,9 +93,9 @@ dependencies:
         commit: 'sha1-f87e5991a6d7451dcb8d9637bfbc97413f497069'
         owner_id: 5429470
         repo_id: 288485773
-    'ffflorian/actions@v1.30.10':
-        ref: 'v1.30.10'
-        commit: 'sha1-b49e8f5432fa2d10d8f64efaa8bc33977c26123e'
+    'ffflorian/actions@v1.30.11':
+        ref: 'v1.30.11'
+        commit: 'sha1-8b90b42e4d82d2d73c873e8cb10d04beb8647fde'
         owner_id: 5497598
         repo_id: 1197109163
         uses:
