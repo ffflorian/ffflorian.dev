@@ -205,7 +205,7 @@ jobs:
       - name: Extract Docker metadata
         if: steps.check.outputs.missing == 'true'
         id: docker-meta
-        uses: docker/metadata-action@v6.1.0
+        uses: docker/metadata-action@v6.2.0
         with:
           images: ${{ env.IMAGE_NAME }}
 
