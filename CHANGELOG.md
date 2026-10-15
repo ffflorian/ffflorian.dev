@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.5...v1.2.6) (2026-10-15)
+
+
+### Bug Fixes
+
+* Photography link ([e94edf1](https://github.com/ffflorian/ffflorian.dev/commit/e94edf1201057ff0048f416e231b2b0792105520))
+
 ## [1.2.5](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.4...v1.2.5) (2026-10-13)
 
 
