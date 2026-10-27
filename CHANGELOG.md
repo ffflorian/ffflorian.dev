@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.7...v1.2.8) (2026-10-27)
+
+
+### Bug Fixes
+
+* **deps:** bump nginx from 1.31.7-alpine to 1.31.8-alpine ([#332](https://github.com/ffflorian/ffflorian.dev/issues/332)) ([cf80bb7](https://github.com/ffflorian/ffflorian.dev/commit/cf80bb70152189d1ba96540d0bf4e97f2b0947cd))
+
 ## [1.2.7](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.6...v1.2.7) (2026-10-20)
 
 
