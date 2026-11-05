@@ -2,6 +2,26 @@
 title: 'Florian Imdahl · Photography'
 ---
 
+![Steel bridge at night in fog, lit by a row of glowing yellow globe lamps, with a lone figure in the distance](/img/photography/hope.jpg)
+*HOPE*
+
+Berlin, Germany, 2026
+
+---
+
+![Close-up of water droplets on a window pane, blurring a glowing orange-red sky behind it](/img/photography/red.jpg)
+
+Berlin, Germany, 2025
+
+---
+
+![Silhouette of two people sitting next to a bench by a lake at sunset, framed by dark trees](/img/photography/spaetsommer.jpg)
+*Spätsommer*
+
+Rechlin, Germany, 2025
+
+---
+
 ![Blurred, dreamlike view up through dark tree leaves against a cloudy night sky, with rainbow-colored light streaks](/img/photography/traeume-werden-realitaet.jpg)
 *Träume werden Realität*
 
