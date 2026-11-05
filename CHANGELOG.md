@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.9...v1.3.0) (2026-11-05)
+
+
+### Features
+
+* New photos ([#335](https://github.com/ffflorian/ffflorian.dev/issues/335)) ([46359f2](https://github.com/ffflorian/ffflorian.dev/commit/46359f20c5c711669281f45ebcf7dfc86af55df4))
+
 ## [1.2.9](https://github.com/ffflorian/ffflorian.dev/compare/v1.2.8...v1.2.9) (2026-11-03)
 
 
