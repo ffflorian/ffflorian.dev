@@ -52,3 +52,15 @@ header h1 + p a:hover, .prose a:hover {
     padding-left: 10%;
   }
 }
+
+.prose img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Caption and location under images */
+.prose p:has(> img),
+.prose p:has(> img) + p {
+  text-align: center;
+}
