@@ -1,3 +1,19 @@
+## [1.3.2](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.1...v1.3.2) (2026-11-14)
+
+### Bug Fixes
+
+* **docker:** use nginx alpine-slim base image ([#340](https://github.com/ffflorian/ffflorian.dev/issues/340)) ([f6be31f](https://github.com/ffflorian/ffflorian.dev/commit/f6be31fd8dbf807ab861e7d453159335c44e704a))
+
+### Continuous Integration
+
+* **deps:** bump docker/login-action from 4.7.0 to 4.8.0 ([#337](https://github.com/ffflorian/ffflorian.dev/issues/337)) ([794593e](https://github.com/ffflorian/ffflorian.dev/commit/794593eef4442fbe4f78f1ba90195d632a939a75))
+* **deps:** bump ffflorian/actions from 1.30.12 to 1.30.13 ([#338](https://github.com/ffflorian/ffflorian.dev/issues/338)) ([226825c](https://github.com/ffflorian/ffflorian.dev/commit/226825caabbf3e5b9300a97d08ada93143291624))
+* **deps:** bump ffflorian/actions from 1.30.13 to 1.30.14 ([#339](https://github.com/ffflorian/ffflorian.dev/issues/339)) ([a567049](https://github.com/ffflorian/ffflorian.dev/commit/a567049da4895427fa1aff2d91f9f9af6acd157e))
+
+### Miscellaneous Chores
+
+* Update Docker dependencies daily [ci skip] ([b170972](https://github.com/ffflorian/ffflorian.dev/commit/b1709724925ece80f18990768b7cd69e6f4e715b))
+
 ## [1.3.1](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.0...v1.3.1) (2026-11-09)
 
 
