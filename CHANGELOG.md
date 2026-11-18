@@ -1,3 +1,9 @@
+## [1.3.3](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.2...v1.3.3) (2026-11-18)
+
+### Bug Fixes
+
+* Disable http2 in nginx ([2d4b3cc](https://github.com/ffflorian/ffflorian.dev/commit/2d4b3cc70359569a358d342365a7b51aee1935f0))
+
 ## [1.3.2](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.1...v1.3.2) (2026-11-14)
 
 ### Bug Fixes
