@@ -1,3 +1,9 @@
+## [1.3.4](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.3...v1.3.4) (2026-11-18)
+
+### Bug Fixes
+
+* Re-enable http2 ([509b8e8](https://github.com/ffflorian/ffflorian.dev/commit/509b8e87ce2c7ea08b78de2313fbf50323dadf7a))
+
 ## [1.3.3](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.2...v1.3.3) (2026-11-18)
 
 ### Bug Fixes
