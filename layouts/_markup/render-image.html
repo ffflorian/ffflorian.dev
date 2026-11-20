@@ -1,0 +1,7 @@
+{{- $cfg := "" -}}
+{{- with fileExists (printf "static%s" .Destination) -}}{{- $cfg = imageConfig (printf "static%s" $.Destination) -}}{{- end -}}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"
+  {{- with .Title }} title="{{ . }}"{{ end }}
+  {{- with $cfg }} width="{{ .Width }}" height="{{ .Height }}"{{ end }}
+  {{- if eq .Ordinal 0 }} fetchpriority="high"{{ else }} loading="lazy"{{ end }} decoding="async">
+{{- /**/ -}}
