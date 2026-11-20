@@ -1,3 +1,9 @@
+## [1.3.8](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.7...v1.3.8) (2026-11-20)
+
+### Performance Improvements
+
+* reduce page weight and enable compression and caching ([#343](https://github.com/ffflorian/ffflorian.dev/issues/343)) ([47a3d59](https://github.com/ffflorian/ffflorian.dev/commit/47a3d59c1988ffee4c58d4baeb73dc6296b1df14))
+
 ## [1.3.7](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.6...v1.3.7) (2026-11-20)
 
 ### Bug Fixes
