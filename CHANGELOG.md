@@ -1,3 +1,9 @@
+## [1.3.6](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.5...v1.3.6) (2026-11-20)
+
+### Bug Fixes
+
+* Add HSTS header ([f353083](https://github.com/ffflorian/ffflorian.dev/commit/f353083154981513b513f235b8f471ea0548c1d0))
+
 ## [1.3.5](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.4...v1.3.5) (2026-11-18)
 
 ### Bug Fixes
