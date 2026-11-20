@@ -1,3 +1,9 @@
+## [1.3.7](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.6...v1.3.7) (2026-11-20)
+
+### Bug Fixes
+
+* **config:** keep attribute quotes in minified HTML ([#342](https://github.com/ffflorian/ffflorian.dev/issues/342)) ([4747fcf](https://github.com/ffflorian/ffflorian.dev/commit/4747fcfdecc3f808d2cbdd408bb2e00f3e1478db))
+
 ## [1.3.6](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.5...v1.3.6) (2026-11-20)
 
 ### Bug Fixes
