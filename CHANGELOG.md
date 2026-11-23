@@ -1,3 +1,9 @@
+## [1.3.9](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.8...v1.3.9) (2026-11-23)
+
+### Bug Fixes
+
+* **deps:** bump nginx from `0b98e1d` to `5bfced7` ([#344](https://github.com/ffflorian/ffflorian.dev/issues/344)) ([d4175ec](https://github.com/ffflorian/ffflorian.dev/commit/d4175ec9d836a87863337033bed0f8fa22cfcc08))
+
 ## [1.3.8](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.7...v1.3.8) (2026-11-20)
 
 ### Performance Improvements
