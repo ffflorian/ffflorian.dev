@@ -1,3 +1,14 @@
+## [1.3.10](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.9...v1.3.10) (2026-11-24)
+
+### Bug Fixes
+
+* **deps:** Bump nginx to 1.31.10 ([fe1ad77](https://github.com/ffflorian/ffflorian.dev/commit/fe1ad770a517df83b85986d586aebf4fe2dfc12d))
+
+### Continuous Integration
+
+* **deps:** bump actions/setup-go from 7.0.0 to 7.1.0 ([#346](https://github.com/ffflorian/ffflorian.dev/issues/346)) ([786d860](https://github.com/ffflorian/ffflorian.dev/commit/786d860bc350483c0ff42ea0c35cb01c9ad6dc1e))
+* **deps:** bump peaceiris/actions-hugo from 3.2.1 to 3.3.0 ([#345](https://github.com/ffflorian/ffflorian.dev/issues/345)) ([20e830e](https://github.com/ffflorian/ffflorian.dev/commit/20e830e9702364edef6869e12be778468be453fe))
+
 ## [1.3.9](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.8...v1.3.9) (2026-11-23)
 
 ### Bug Fixes
