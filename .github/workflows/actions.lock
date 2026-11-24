@@ -14,7 +14,7 @@ workflows:
         - 'ffflorian/actions@v1.30.14'
     '.github/workflows/main.yml':
         - 'actions/checkout@v7.0.1'
-        - 'actions/setup-go@v7.0.0'
+        - 'actions/setup-go@v7.1.0'
         - 'docker/build-push-action@v7.4.0'
         - 'docker/login-action@v4.8.0'
         - 'docker/metadata-action@v6.2.0'
@@ -43,9 +43,9 @@ dependencies:
         commit: 'sha1-e5bc658cc4c965c472efe991f8beea3981499c55'
         owner_id: 44036562
         repo_id: 237012274
-    'actions/setup-go@v7.0.0':
-        ref: 'v7.0.0'
-        commit: 'sha1-b7ad1dad31e06c5925ef5d2fc7ad053ef454303e'
+    'actions/setup-go@v7.1.0':
+        ref: 'v7.1.0'
+        commit: 'sha1-d8cbb8045d7f43706b9177cceb36c1f91a6644d5'
         owner_id: 44036562
         repo_id: 192624594
     'actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e':
