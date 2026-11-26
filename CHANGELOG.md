@@ -1,3 +1,9 @@
+## [1.3.12](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.11...v1.3.12) (2026-11-26)
+
+### Bug Fixes
+
+* **deps:** Bump lynx to 1.6.2 ([97b37b5](https://github.com/ffflorian/ffflorian.dev/commit/97b37b5b642ac04370976ce9cd46422b76a709ff))
+
 ## [1.3.11](https://github.com/ffflorian/ffflorian.dev/compare/v1.3.10...v1.3.11) (2026-11-26)
 
 ### Bug Fixes
